@@ -10,6 +10,8 @@ d['attributes'] = [ 'sum', 'min' ]
 d['timestamp'] = '2015-10-26T07:46:36.611Z'
 d['description'] = 'An example TPC file'
 d['optional'] = dict(what='Additional attributes',why='Are permitted')
+d['space'] = 'The Euclidean plane'
+d['uuid'] = 'f81d4fae-7dec-11d0-a765-00a0c91e6bf6'
 
 points = [
     {'v': [1.0,1.0],
@@ -26,7 +28,6 @@ points = [
      't': [] } ]
 
 d['points'] = points
-
 if pretty:
     print(json.dumps(d, sort_keys=True,indent=4, separators=(',', ': ')))
 else:
